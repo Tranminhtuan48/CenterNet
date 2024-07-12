@@ -1,0 +1,17 @@
+lr0: 0.01                     # initial learning rate (SGD=1E-2, Adam=1E-3)
+lrf: 0.01                     # final OneCycleLR learning rate (lr0 * lrf)
+momentum: 0.900000000         # SGD momentum/Adam beta1
+weight_decay: 0.00001         # optimizer weight decay 5e-4
+warmup_epochs: 3.0000         # warmup epochs (fractions ok)
+warmup_momentum: 0.80         # warmup initial momentum
+warmup_bias_lr: 0.100         # warmup initial bias lr
+
+
+# Classes
+names:
+  0: car
+  1: threewheel
+  2: bus
+  3: truck
+  4: motorbike
+  5: van
